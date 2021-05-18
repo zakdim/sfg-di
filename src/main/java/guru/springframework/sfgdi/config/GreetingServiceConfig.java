@@ -13,7 +13,6 @@ import org.springframework.context.annotation.*;
 /**
  * Created by developer on 2021-05-16.
  */
-@PropertySource("classpath:datasource.properties")
 @ImportResource("classpath:sfgdi-config.xml")
 @Configuration
 public class GreetingServiceConfig {
